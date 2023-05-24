@@ -158,7 +158,7 @@ async def generate_session(bot: Client, msg: Message, telethon=False, is_bot: bo
         string_session = client.session.save()
     else:
         string_session = await client.export_session_string()
-    text = f"**ᴛʜɪs ɪs ʏᴏᴜʀ {ty} sᴛʀɪɴɢ sᴇssɪᴏɴ** \n\n`{string_session}` \n\n**ɢᴇɴᴇʀᴀᴛᴇᴅ ʙʏ :** @StringFatherBot\n🍒 **ɴᴏᴛᴇ :** ᴅᴏɴ'ᴛ sʜᴀʀᴇ ɪᴛ ᴡɪᴛʜ ʏᴏᴜʀ ɢɪʀʟғʀɪᴇɴᴅ 🍑 ᴀɴᴅ ᴅᴏɴ'ᴛ ғᴏʀɢᴇᴛ ᴛᴏ ᴊᴏɪɴ @DevilsHeavenMF 🥺"
+    text = f"**ᴛʜɪs ɪs ʏᴏᴜʀ {ty} sᴛʀɪɴɢ sᴇssɪᴏɴ** \n\n`{string_session}` \n\n**ɢᴇɴᴇʀᴀᴛᴇᴅ ʙʏ :** @SexyAaditya\n🍒 **ɴᴏᴛᴇ :** ᴀᴀᴘᴋᴀ sᴇssɪᴏɴ ʙᴀɴ ᴄʜᴜᴋᴀ ʜᴀɪ ᴀʙ ʏᴀʜᴀ ᴀᴘɴɪ ᴍᴀᴀ ɴᴀ ᴄʜᴜᴅᴀᴇ ᴀᴜʀ ᴘᴇʜʟɪ ᴘʜᴜʀsᴀᴛ ᴍᴇ ᴊᴏɪɴ ᴋᴀʀᴇ @DabangTheBrand 🥺"
     try:
         if not is_bot:
             await client.send_message("me", text)
