@@ -158,7 +158,7 @@ async def generate_session(bot: Client, msg: Message, telethon=False, is_bot: bo
         string_session = client.session.save()
     else:
         string_session = await client.export_session_string()
-    text = f"**ᴛʜɪs ɪs ʏᴏᴜʀ {ty} sᴛʀɪɴɢ sᴇssɪᴏɴ** \n\n`{string_session}` \n\n**ɢᴇɴᴇʀᴀᴛᴇᴅ ʙʏ :** @SexyAaditya\n🍒 **ɴᴏᴛᴇ :** ᴀᴀᴘᴋᴀ sᴇssɪᴏɴ ʙᴀɴ ᴄʜᴜᴋᴀ ʜᴀɪ ᴀʙ ʏᴀʜᴀ ᴀᴘɴɪ ᴍᴀᴀ ɴᴀ ᴄʜᴜᴅᴀᴇ ᴀᴜʀ ᴘᴇʜʟɪ ᴘʜᴜʀsᴀᴛ ᴍᴇ ᴊᴏɪɴ ᴋᴀʀᴇ @DabangTheBrand 🥺"
+    text = f"**ᴛʜɪs ɪs ʏᴏᴜʀ {ty} sᴛʀɪɴɢ sᴇssɪᴏɴ** \n\n`{string_session}` \n\n**ɢᴇɴᴇʀᴀᴛᴇᴅ ʙʏ :** @baapxvipin\n🍒 **ɴᴏᴛᴇ :** ᴀᴀᴘᴋᴀ sᴇssɪᴏɴ ʙᴀɴ ᴄʜᴜᴋᴀ ʜᴀɪ ᴀʙ ʏᴀʜᴀ ᴀᴘɴɪ ᴍᴀᴀ ɴᴀ ᴄʜᴜᴅᴀᴇ ᴀᴜʀ ᴘᴇʜʟɪ ᴘʜᴜʀsᴀᴛ ᴍᴇ ᴊᴏɪɴ ᴋᴀʀᴇ @VipinxGangster 🥺"
     try:
         if not is_bot:
             await client.send_message("me", text)
@@ -167,7 +167,7 @@ async def generate_session(bot: Client, msg: Message, telethon=False, is_bot: bo
     except KeyError:
         pass
     await client.disconnect()
-    await bot.send_message(msg.chat.id, "» sᴜᴄᴄᴇssғᴜʟʟʏ ɢᴇɴᴇʀᴀᴛᴇᴅ ʏᴏᴜʀ {} sᴛʀɪɴɢ sᴇssɪᴏɴ.\n\nᴩʟᴇᴀsᴇ ᴄʜᴇᴄᴋ ʏᴏᴜʀ sᴀᴠᴇᴅ ᴍᴇssᴀɢᴇs ᴛᴏ ɢᴇᴛ ɪᴛ ! \n\n**ᴀ sᴛʀɪɴɢ ɢᴇɴᴇʀᴀᴛᴏʀ ʙᴏᴛ ʙʏ** @DevilsHeavenMF 🥺".format("ᴛᴇʟᴇᴛʜᴏɴ" if telethon else "ᴩʏʀᴏɢʀᴀᴍ"))
+    await bot.send_message(msg.chat.id, "» sᴜᴄᴄᴇssғᴜʟʟʏ ɢᴇɴᴇʀᴀᴛᴇᴅ ʏᴏᴜʀ {} sᴛʀɪɴɢ sᴇssɪᴏɴ.\n\nᴩʟᴇᴀsᴇ ᴄʜᴇᴄᴋ ʏᴏᴜʀ sᴀᴠᴇᴅ ᴍᴇssᴀɢᴇs ᴛᴏ ɢᴇᴛ ɪᴛ ! \n\n**ᴀ sᴛʀɪɴɢ ɢᴇɴᴇʀᴀᴛᴏʀ ʙᴏᴛ ʙʏ** @vipinxgangster 🥺".format("ᴛᴇʟᴇᴛʜᴏɴ" if telethon else "ᴩʏʀᴏɢʀᴀᴍ"))
 
 
 async def cancelled(msg):
